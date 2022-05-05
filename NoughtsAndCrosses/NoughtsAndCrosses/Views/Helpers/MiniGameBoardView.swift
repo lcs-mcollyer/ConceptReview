@@ -32,6 +32,10 @@ struct MiniGameBoardView: View {
                 MiniTileView(state: result.middleRight)
             }
 
+            //MARK: could potentailly utilize abstraction
+            
+            
+            
             // Bottom row
             HStack(spacing: 2) {
                 MiniTileView(state: result.bottomLeft)

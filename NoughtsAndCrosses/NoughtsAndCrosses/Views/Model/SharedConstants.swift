@@ -10,7 +10,7 @@ import Foundation
 // Constants to describe the three possible states for a tile on the game board
 let empty = ""
 let nought = "⭘"
-let cross = "✕"
+let cross = "X"
 
 // Constant to describe when a game was not won by either player
 let draw = "Draw"

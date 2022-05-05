@@ -188,7 +188,7 @@ struct GameBoardView: View {
                 
                 upperRight == currentPlayer &&          // Right column
                 middleRight == currentPlayer &&
-                bottomRight == currentPlayer ||
+                bottomRight == currentPlayer || // <-- what does this do/mean ?
                 
                 upperLeft == currentPlayer &&           // Diagonal, left to right
                 middleMiddle == currentPlayer &&
